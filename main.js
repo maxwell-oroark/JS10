@@ -75,7 +75,31 @@ var objPrinter = function(object){
 objPrinter(superman)
 
 
+// FUNCTION SEVEN
 
+var vowels = function(string){
+    var letters = string.split('');
+    var answer = []
+    for (var i = 0; i < letters.length; i++){
+        if (letters[i] === 'a' || letters[i] == 'e' || letters[i] == 'i' || letters[i] == 'o' || letters[i] == 'u' ){
+            answer.push(letters[i]);
+        }
+    }
+    
+    return answer
+}    
+
+vowels('the fox jumped over the lazy dog')
+
+vowels('alabama')
+
+//FUNCTION EIGHT
+
+
+
+//FUNCTION NINE
+
+//FUNCTION TEN
 
 
 
