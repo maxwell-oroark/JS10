@@ -40,4 +40,46 @@ negativeIndex = function (array, negNum){
     
 }
 
+// FUNCTION FIVE
+
+removeM = function(string){
+        var newArray = []    
+	    var newStrArr = string.split('') 
+	    for(i = 0; i< newStrArr.length; i++){
+	   
+	        if (newStrArr[i] != 'm'){
+	            newArray.push(newStrArr[i]);
+	            
+	        }
+	    }
+	    
+	   return newArray.join('');
+		}
+	
+removeM('vermouth')
+
+// FUNCTION SIX
+
+var superman = {
+    gender: 'male',
+    strength: 'infinite',
+    phoneNum: 'none of yo bizzness'
+}
+
+var objPrinter = function(object){
+   for (var key in object) {
+       console.log(key + ' is ' + object[key]);
+   }
+    
+}
+objPrinter(superman)
+
+
+
+
+
+
+
+
+
 
