@@ -32,5 +32,12 @@ keyValue = function (key, value) {
 
 }
 
+// FUNCTION FOUR
+
+negativeIndex = function (array, negNum){
+    var reversal = array.length + negNum;
+    return array[reversal];
+    
+}
 
 
