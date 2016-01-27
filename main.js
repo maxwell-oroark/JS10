@@ -95,12 +95,51 @@ vowels('alabama');
 
 //FUNCTION EIGHT
 
+var twins = function (array) {
+    for (var i = 0; i < array.length; i += 2){
+        if (array[i]  !== array[i +1]){
+            return false;
+        }
+    }
+    return true;
+}
+
+twins([1,1,2,2,3,3,4,4,5,5])
+
+twins(['a', 'a', 'b', 'c', 'd', 'd'])
+
+twins(['a', 'a', 'b', 'b', 'c', 'c'])
 
 
 //FUNCTION NINE
 
+var ifTrue = function(bool){
+        if (bool === true){
+            return true;
+        }
+        }
+
+var or = function(boolArr){
+    boolArr.forEach(ifTrue)
+    return false;
+}
+
+or([false, false, true, false])
+
 //FUNCTION TEN
 
+unique = function(array){
+    array.sort();
+    uniqueArr = []
+    for(i = 0; i < array.length; i++){
+      if (array[i]  !== array[i +1]){
+            uniqueArr.push(array[i]);
+        }
+    }
+    return uniqueArr
+}
+
+unique(['todd', 'avery', 'maria', 'avery'])
 
 
 
