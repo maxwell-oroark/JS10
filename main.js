@@ -89,9 +89,9 @@ var vowels = function(string){
     return answer
 }    
 
-vowels('the fox jumped over the lazy dog')
+vowels('the fox jumped over the lazy dog');
 
-vowels('alabama')
+vowels('alabama');
 
 //FUNCTION EIGHT
 
